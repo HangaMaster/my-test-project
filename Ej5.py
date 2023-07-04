@@ -1,0 +1,5 @@
+Horas = input("Por favor, indique las horas que ha trabajado esta semana: ")
+Coste = input("Indique el coste por hora: ")
+print("Ha especificado que el coste por hora son:", Coste, "y el número de horas son:", Horas)
+Precio = float(Horas) * float(Coste)
+print("El coste total es:", Precio, "€")
