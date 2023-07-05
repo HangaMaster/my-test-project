@@ -13,7 +13,3 @@ try:
     print("Resultado:", int(response.json()))
 except AssertionError as e:
     print(e)
-"""
-response = requests.get(url, params=params)
-print("Resultado: ", int(response.json()))
-"""
